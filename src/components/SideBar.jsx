@@ -1,6 +1,6 @@
 import React from 'react'
 
-function sidebar() {
+function Sidebar() {
   return <>
    <ul className="navbar-nav bg-warning sidebar sidebar-dark accordion" id="accordionSidebar">
     
@@ -26,4 +26,4 @@ function sidebar() {
 </>
 }
 
-export default sidebar
+export default Sidebar
