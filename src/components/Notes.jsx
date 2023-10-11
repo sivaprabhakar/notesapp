@@ -19,8 +19,8 @@ function Notes() {
                       <div className="text-xs font-weight-bold text-uppercase mb-1 d-flex justify-content-between">
                         <h6>{e.title}</h6>
                         <div>
-                          <img className="mx-1" src="./src/assets/edit.svg" alt="edit" />
-                          <img className="mx-1" src="./src/assets/delete.svg" alt="delete" />
+                          <div className="mx" src="./src/assets/edit.svg" alt="edit"></div>
+                          <div className="mx-1" src="./src/assets/delete.svg" alt="delete"> </div>
                         </div>
                       </div>
                       <div className="h5 mb-0 font-weight-bold text-gray-800">{e.note}</div>

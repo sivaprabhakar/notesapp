@@ -17,7 +17,7 @@ function SideBar() {
 <li className="nav-item active ">
     <a className="nav-link " href="index.html">
     
-        <span className="text-light">Notes<img className="mx" src="./src/assets/description.svg" alt="description" />
+        <span className="icon text-light">Notes<img className="mx-2"  />
         </span></a>
 </li>
 
