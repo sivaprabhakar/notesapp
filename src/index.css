@@ -82,6 +82,7 @@ ul.navbar-nav{
 border: #F5F5F5 !important;
 position: relative;
 left:30px;
+
 width:900px !important;
 }
 .mr-auto h2{
@@ -146,7 +147,7 @@ h4.mb-0::before{
     left:-20px;
     top:7px;
 }
-.mb-4 h6{
+.mb-4 h6{ 
     color: var(--accent, #203562);
 font-family: Montserrat;
 font-size: 16px;
@@ -166,3 +167,243 @@ left:-40px;
     top:-30px;
     left:-10px;
 }
+.edittext{
+    border: none;
+    height:160px;
+    width:280px;
+}
+
+
+
+/* Mobile (576px and below) */
+@media (max-width: 576px) {
+    /* Apply your mobile styles here */
+    /* For example: */
+    .sidebar-brand-text-bs-primary {
+        color: #203562;
+        font-family: 'Montserrat', sans-serif ;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20.6px; /* 84% */
+    text-align: center;
+    padding:8px 2px;
+    
+    
+    }
+    .text-light{
+        color:  #fff !important;
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33.6px; /* 140% */
+        position: relative;
+        padding:0px 90px;
+        left:-70px;
+        top:-7px;
+        }
+        .text-bg-light {
+            width: 154px;
+            height: 1024px;
+            flex-shrink: 0;
+        }
+        .icon::before{
+            position: relative;
+             height:10px;
+            top:45px;
+            left:-30px;
+            content:url(assets/description.svg)!important;
+            background-size: 20px 20px !important;
+          
+        }
+        .nav-item{
+            position: relative;
+            top:10px;
+            right:-10px;
+            display: flex;
+        width: 80px;
+        height:40px;
+        padding: 0px 12px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0px;
+        border-radius: 8px;
+        background: var(--accent, #203562);
+       
+        }
+        .bg-light{
+            position: absolute;
+        top:-30px;
+        left:155px;
+            width:350px;
+        height: 266px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        opacity: 0.8;
+        background: var(--Secondary, #F5F5F5);
+        box-shadow: 2px 4px 16px 0px rgba(32, 53, 98, 0.47);
+        }
+        ul.navbar-nav{
+            background: var(--Primary, #E3E8F8)!important;
+            width:530px;
+        } 
+        .text-bg-light {
+            width: 124px;
+            height: 1024px;
+            flex-shrink: 0;
+        }
+        .container-fluid{
+            position: relative;
+            top:-260px;
+            left:200px;
+        }
+        .form-control{
+        border: #F5F5F5 !important;
+        position: relative;
+        left:30px;
+        
+        width:900px !important;
+        }
+        .mr-auto h2{
+            color: var(--accent, #203562);
+        
+        /* H1 */
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44.8px; /* 140% */
+        padding:1px 15px;
+        position: relative;
+        top:-35px;
+        left:-10px;
+        }
+        #exampleFormControlInput1::placeholder{
+            color: var(--accent, #203562);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44.8px; /* 140% */
+        opacity: 0.8;
+        
+        }
+        #exampleFormControlTextarea1::placeholder{
+            color: var(--accent, #203562);
+            opacity: 0.7;
+        
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33.6px; /* 140% */
+        }
+        button{
+            position: relative;
+            left:10px;
+            top:-80px;
+            width:80px;
+            height:30px;
+        }
+        .form-control{
+            border: #F5F5F5 !important;
+            position: relative;
+            left:1px;
+            top:-70px;
+            width:300px!important;
+        }
+        .card{
+            width: 317px;
+        height: 263px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: var(--Secondary, #F5F5F5);
+        position: relative;
+        top:-180px;
+        left:-270px;
+        }
+        .mb-4 h4{
+            position: relative;
+            top:-200px;
+            left:-260px;
+            color: var(--accent, #203562);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 33.6px; /* 140% */
+        }
+        h4.mb-0::before{
+            content:url(assets/description1.svg);
+            color:#203562 !important;
+            position: relative;
+            left:-12px;
+            top:7px;
+        }
+        .mb-4 h6{
+            color: var(--accent, #203562);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22.4px; /* 140% */
+        opacity: 0.7;
+        position: relative;
+        top:-190px;
+        left:-265px;
+        }
+        .mx::before{
+        content: url(assets/edit.svg);
+        position: relative;
+        left:-40px;
+        }
+        .mx-1::before{
+            content:url(assets/delete.svg);
+            position: relative;
+            top:-30px;
+            left:-10px;
+        }
+  }
+  
+  /* Tablet (768px and above) */
+  @media (min-width: 576px) and (max-width: 768px) {
+    /* Apply your tablet styles here */
+    /* For example: */
+    .sidebar-brand-text-bs-primary {
+      /* Tablet-specific styles */
+    }
+    /* ...other tablet-specific styles */
+  }
+  
+  /* Small Desktop (992px and above) */
+  @media (min-width: 768px) and (max-width: 992px) {
+    /* Apply your small desktop styles here */
+    /* For example: */
+    .sidebar-brand-text-bs-primary {
+      /* Small desktop-specific styles */
+    }
+    /* ...other small desktop-specific styles */
+  }
+  
+  /* Large Desktop (1200px and above) */
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* Apply your large desktop styles here */
+    /* For example: */
+    .sidebar-brand-text-bs-primary {
+      /* Large desktop-specific styles */
+    }
+    /* ...other large desktop-specific styles */
+  }
+  
+  /* Extra Large Desktop (1200px and above) */
+  @media (min-width: 1200px) {
+    /* Apply your extra large desktop styles here */
+    /* For example: */
+    .sidebar-brand-text-bs-primary {
+      /* Extra large desktop-specific styles */
+    }
+    /* ...other extra large desktop-specific styles */
+  }
+  

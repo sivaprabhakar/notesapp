@@ -1,6 +1,6 @@
-import React, { createContext, useState } from 'react';
+import React, {  useState } from 'react';
 
-export const NotesTaken = createContext();
+export const NotesTaken = React.createContext();
 
 function NotesContext({ children }) {
   const [data, setData] = useState([
@@ -10,9 +10,9 @@ function NotesContext({ children }) {
       updatedBefore: "10 days"
     },
   ]);
-
+  const [editIndex, setEditIndex] = useState(null);
   return (
-    <NotesTaken.Provider value={{ data, setData }}>
+    <NotesTaken.Provider value={{ data, setData, editIndex, setEditIndex }}>
       {children}
     </NotesTaken.Provider>
   );
