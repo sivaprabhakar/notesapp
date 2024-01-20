@@ -7,6 +7,7 @@ import deleteIcon from '../assets/delete.svg';
 
 function NotesArea() {
   const { data, setData } = useContext(NotesTaken);
+  
 
   return (
     <div className="bg-light mt-5 mb-5 static-top py-5 px-3" style={{ minHeight: "fit-content" }}>

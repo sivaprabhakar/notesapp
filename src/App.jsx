@@ -6,7 +6,7 @@ import Notes from './components/Notes';
 
 function App() {
   return (
-    <div id="wrapper">
+    <div  id="wrapper">
      
       <div id="content-wrapper" className="d-flex flex-column">
         <div id="content">

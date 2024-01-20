@@ -22,15 +22,17 @@ function Notes() {
     setData(updatedData);
   };
 
+  
   return (
     <div className="container-fluid">
       <div className="mb-4">
         <h4 className="mb-0 text-gray-800">My Notes</h4>
         <h6 className="mb-0 text-gray-800">Recently viewed</h6>
-        <div className="row">
+        <div className="row flex-wrap">
           {Array.isArray(data) &&
             data.map((e, i) => (
-              <div key={i} className="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <div key={i} className="col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-3 mr-3">
+                {/* Add mb-4 and mr-4 classes to create gaps between and on the right side of cards */}
                 <div className="card shadow h-100 py-1">
                   <div className="card-body">
                     <div className="text-xs font-weight-bold text-uppercase mb-1 d-flex justify-content-between">
